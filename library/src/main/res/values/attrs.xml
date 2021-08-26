@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepsIndicatorView">
+        <attr name="siv_totalProgressCount" format="integer" />
+        <attr name="siv_height" format="integer" />
+        <attr name="siv_progressCount" format="integer" />
+        <attr name="siv_progressColor" format="color" />
+        <attr name="siv_progressEmptyColor" format="color" />
+        <attr name="siv_backgroundColor" format="color" />
+    </declare-styleable>
+</resources>
