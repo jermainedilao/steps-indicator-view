@@ -7,7 +7,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.appetiser.stepsindicatorviewdemo"
+        applicationId "com.jermaine.stepsindicatorviewdemo"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1

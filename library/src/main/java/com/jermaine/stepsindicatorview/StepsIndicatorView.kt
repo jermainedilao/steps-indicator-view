@@ -1,4 +1,4 @@
-package com.appetiser.stepsindicatorview
+package com.jermaine.stepsindicatorview
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -14,7 +14,8 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import androidx.annotation.ColorInt
-import com.appetiser.stepsindicatorview.extensions.toPx
+import com.appetiser.stepsindicatorview.R
+import com.jermaine.stepsindicatorview.extensions.toPx
 import java.util.*
 
 class StepsIndicatorView(

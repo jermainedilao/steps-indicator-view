@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context="com.jermaine.stepsindicatorviewdemo.MainActivity">
 
-    <com.appetiser.stepsindicatorview.StepsIndicatorView
+    <com.jermaine.stepsindicatorview.StepsIndicatorView
         android:id="@+id/roundedStepIndicatorView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

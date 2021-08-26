@@ -1,4 +1,4 @@
-package com.appetiser.stepsindicatorview.extensions
+package com.jermaine.stepsindicatorview.extensions
 
 import android.content.Context
 

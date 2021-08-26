@@ -1,4 +1,4 @@
-package com.appetiser.stepsindicatorviewdemo
+package com.jermaine.stepsindicatorviewdemo
 
 import org.junit.Test
 

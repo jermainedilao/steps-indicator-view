@@ -8,29 +8,30 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 apply plugin: 'com.jfrog.bintray'
 
-ext {
-    bintrayRepo = 'appetiser-android-widgets'
-    bintrayName = 'stepsindicatorview'
-
-    libraryName = 'library'
-
-    // artifact information
-    // for example au.com.appetiser.baseplate:stepsindicatorview:1.0.0
-
-    publishedGroupId = 'au.com.appetiser.baseplate'
-    artifact = 'stepsindicatorview'
-    libraryVersion = '0.0.3'
-
-    libraryDescription = 'Steps indicator view for appetiser\'s baseplate.'
-    siteUrl = 'https://gitlab.com/appetiser-android-widgets/stepsindicatorview'
-    gitUrl = 'https://gitlab.com/appetiser-android-widgets/stepsindicatorview.git'
-    developerId = 'jermainedilao'
-    developerName = 'Jermaine Dilao'
-    developerEmail = 'jermaine.dilao@appetiser.com.au'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
+// TODO Move to personal maven repository
+//ext {
+//    bintrayRepo = 'appetiser-android-widgets'
+//    bintrayName = 'stepsindicatorview'
+//
+//    libraryName = 'library'
+//
+//    // artifact information
+//    // for example au.com.appetiser.baseplate:stepsindicatorview:1.0.0
+//
+//    publishedGroupId = 'au.com.appetiser.baseplate'
+//    artifact = 'stepsindicatorview'
+//    libraryVersion = '0.0.3'
+//
+//    libraryDescription = 'Steps indicator view for appetiser\'s baseplate.'
+//    siteUrl = 'https://gitlab.com/appetiser-android-widgets/stepsindicatorview'
+//    gitUrl = 'https://gitlab.com/appetiser-android-widgets/stepsindicatorview.git'
+//    developerId = 'jermainedilao'
+//    developerName = 'Jermaine Dilao'
+//    developerEmail = 'jermaine.dilao@appetiser.com.au'
+//    licenseName = 'The Apache Software License, Version 2.0'
+//    licenseUrl = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+//    allLicenses = ["Apache-2.0"]
+//}
 
 android {
     compileSdkVersion 29
@@ -61,7 +62,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
-if (project.rootProject.file('local.properties').exists()) {
-    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
-}
+//if (project.rootProject.file('local.properties').exists()) {
+//    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+//}
